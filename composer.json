@@ -1,0 +1,19 @@
+{
+    "name": "xiaomlove/laravel-habit",
+    "description": "personal use hibits of laravel",
+    "type": "library",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Xiaomlove\\LaravelHabit\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xiaomlove\\LaravelHabit\\LaravelHabitServiceProvider"
+            ]
+        }
+    }
+}
