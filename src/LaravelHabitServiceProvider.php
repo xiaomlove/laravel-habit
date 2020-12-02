@@ -27,7 +27,6 @@ class LaravelHabitServiceProvider extends ServiceProvider
 
         $this->setSchemaDefaultStringLength();
 
-
     }
 
     /**
