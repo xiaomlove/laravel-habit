@@ -39,6 +39,7 @@ class LaravelHabitServiceProvider extends ServiceProvider
     {
         $config = config('laravel-habit');
         if (version_compare($config['mysql_version'], '5.7.7', '<')) {
+            log_write(__METHOD__ . ", set default string length 191");
             Schema::defaultStringLength(191);
         }
     }
